@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Real-Time Messaging Application
 
-## Getting Started
+Welcome to the **Real-Time Messaging Application**, a full-stack messaging platform inspired by Discord. This application delivers real-time, low-latency messaging, video calling, and voice chat functionality, along with robust features for creating and managing channels.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Backend
+- **Socket.IO**: Enabled real-time, low-latency messaging, video calling, and voice chat to ensure seamless user interactions.
+- **Prisma and MySQL**:
+  - Designed and managed a scalable database schema using Prisma ORM.
+  - Hosted the database on **Azure**, ensuring high availability, reliability, and efficient scaling for user data and interactions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frontend
+- **Next.js and React.js**: Built a dynamic and responsive front-end for an engaging user experience.
+- **TypeScript**: Enhanced development with type safety, improving code reliability and maintainability.
+- **TailwindCSS**: Created a modern and responsive UI design, ensuring a cohesive and visually appealing user interface.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Functionalities
+- **Real-Time Messaging**: Send and receive messages instantly using Socket.IO.
+- **Voice and Video Chat**: Communicate through integrated voice and video call features.
+- **Channel Creation**:
+  - Users can create customizable private and public channels.
+  - Includes options for server and channel management, fostering collaborative interactions.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Backend**: Socket.IO, Prisma, MySQL
+- **Frontend**: Next.js, React.js, TypeScript, TailwindCSS
+- **Database Hosting**: Azure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Achievements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Delivered seamless real-time communication through low-latency messaging, voice, and video chat.
+- Supported customizable server and channel creation, catering to diverse user collaboration needs.
+- Ensured reliable and scalable database storage using **Azure**, handling real-time user interactions efficiently.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
